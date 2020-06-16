@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url(../img/hero-image.jpg);
+  background-position: 5px -744px;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 100px;
+  height: 19px;
+  padding: 5px 5px 5px 5px;
+  background: url(../img/search-icon.svg), #707070;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 2px 2px;
+  border-radius: 12px;
+}
+
+input:focus {
+  width: 140px;
+  padding-left: 20px;
+  background: url(../img/search-icon.svg), white;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 2px 2px;
+}
+
+.header ul {
+  list-style-type: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  background: linear-gradient(#9e9d9d, #615e5e, #8d8c8c);
+  width: 881px;
+  left: 17%;
+  top: 105px;
+  height: 36px;
+}
+
+.header li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: double 1px #8d8c8c;
+  float: left;
+  margin-top: 8px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1426px;
+  padding: 1em 0 2.6em;
+  transform: scale(0.8);
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.logo {
+  padding: 22px 30px 1px 28px;
+}
+
+.navbartag {
+  padding: 11px 30px 11px 28px;
+}
+
+.header img {
+  height: 24px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-3 {
+  width: 25%;
+  height: 200px;
+  float: left;
+  padding: 15px;
+  border: 1px solid white;
+}
+
+.left {
+  width: 43%;
+  padding-top: 1.5em;
+  text-align: left;
+  float: left;
+}
+
+.right {
+  float: right;
+  width: 57%;
+  padding-top: 1.5em;
+  text-align: right;
+}
+
+.right ul {
+  display: inline;
+  margin: 0;
+}
+
+.right ul li {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+
+.mobile-imag1 {
+  background-image: url(../img/mobile-1.jpg);
+}
+
+.mobile-imag2 {
+  background-image: url(../img/mobile-2.jpg);
+}
+
+.mobile-imag3 {
+  background-image: url(../img/mobile-3.jpg);
+}
+
+.mobile-imag4 {
+  background-image: url(../img/mobile-4.jpg);
+}
+
+h1,
+h2,
+h5 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 38;
+}
+
+h2 {
+  position: absolute;
+  font-size: 28;
+  left: 200px;
+  right: 200px;
+}
+
+h5 {
+  top: 322px;
+  left: 13%;
+  right: 14%;
+  position: absolute;
+  font-size: 23px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.header ul li a {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.header ul li a:hover {
+  background:
+    linear-gradient(
+      rgb(97, 96, 96),
+      rgb(51, 50, 50),
+      rgb(49, 49, 49)
+    );
+}
+
+.header {
+  border: 1px solid white;
+  height: 553px;
+}
+
+.header div {
+  margin-top: 193px;
+}
+
+.straight-line {
+  border-left: 1px solid #ccc;
+}

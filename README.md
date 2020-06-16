@@ -1,10 +1,10 @@
-# building-with-backgrounds-and-gradients
-a
 # Building with Backgrounds and Gradients(float, flex and grid)
 
-> Microverse Collaborative Project (Ramin and Umair)
+> Microverse School > 4. HTML & CSS3 > Building with Backgrounds and Gradients
 
-![screenshot](img/project.png)
+Microverse Collaborative Project (Ramin and Umair)
+
+![screenshot](img/page_screenshot.png)
 
 Additional description about the project and its features.
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Positioning-and-Floating-Elements/5fdb9cbed905283843c93cb37237f999cfebd1b6/index.html)
+[Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/building-with-backgrounds-and-gradients/5ae78b10827d762458dd27941272e92aebc468bf/index.html)
 
 
 ## Getting Started
@@ -39,7 +39,7 @@ To get a local copy  and to set it up and running follow these simple example st
 - Browser
 - Internet
 
-- Download the code from repository (https://github.com/umairarshadbutt/Positioning-and-Floating-Elements) and double click the index.html file
+- Download the code from repository (https://github.com/RaminMammadzada/building-with-backgrounds-and-gradients) and double click the index.html file
 
 
 ## Authors
@@ -71,3 +71,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](LICENSE) licensed.
+
